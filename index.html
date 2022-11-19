@@ -1,15 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rick and Morty</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-    <div>
-        <h2>Rick and Morty</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae veritatis odio atque eveniet! Nemo obcaecati eum minus exercitationem soluta beatae rem consequuntur eaque voluptates quidem, dicta debitis earum sunt porro?</p>
+    <!-- Frequently Asked Questions -->
+    <div id="faq-backcolor">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class=" text-center my-3">
+                        Frequently Asked Questions about Rick and Morty
+                    </h3>
+                    <div class="accordion accordion-flush mb-5" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed faq-backcolor-ini" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    is Rick and Morty adapted of Doc and Marty from Back to The Future trilogy ?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body faq-backcolor-in">Rick and Morty is inspired from a parody
+                                    short of Back to The
+                                    Future created by Justin Roiland called "The Real Animated Adventures of Doc and
+                                    Mharti." The designs and voices of the parody versions of Doc and Marty would become
+                                    the
+                                    inspiration for the creation of the titular characters, Rick and Morty, although
+                                    some
+                                    changes were made to make them more original characters. "<a href="#">Read more
+                                        here.</a>"
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed faq-backcolor-ini" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Which TV shows and movies have influenced the making of "Rick and Morty?"
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body faq-backcolor-in">Creators of the adult cartoon Rick and
+                                    Morty (2013 ) are not
+                                    shy about the influences on their show, giving interviews to IGN and Vulture. While
+                                    the
+                                    influences may not be secret, their range is vast, including childrens and adults
+                                    movies
+                                    and TV shows from the '70s, '80s, and '90s, a science fiction novel, and their
+                                    mothers."
+                                    <a href="#">Read more here.</a>"
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed faq-backcolor-ini" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    What do Jerry and Beth do for a living?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body faq-backcolor-in">Jerry (the dad) is unemployed, but
+                                    previously worked in
+                                    advertising. Beth (the mom) is a veterinarian who specializes in heart surgery on
+                                    horses. "<a href="#">Read more
+                                        here.</a>"
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed faq-backcolor-ini" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Is Rick Jerry or Beth's father?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body faq-backcolor-in">Jerry (the dad) is unemployed, but
+                                    previously worked in
+                                    advertising. Beth (the mom) is a veterinarian who specializes in heart surgery on
+                                    horses. "<a href="#">Read more
+                                        here.</a>"
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Character -->
+    <div id="Character">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/morty.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Morty Smith</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/rick.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Richard D. Sanchez</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/summer.jpg" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Summer Smith</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="height: 1000px;"></div>
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+                <li class="nav-item"><a href="#Character" class="nav-link px-2 text-muted">Character</a></li>
+                <li class="nav-item"><a href="#faq-backcolor" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2022 <a href="https://github.com/radin-allahverdian">Radin
+                    Allahverdian</a> &
+                <a href="https://github.com/AmirAnsarpour">AmirAnsarpour</a>
+            </p>
+        </footer>
     </div>
 </body>
+
 </html>
