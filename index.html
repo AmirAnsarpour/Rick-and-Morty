@@ -20,7 +20,7 @@
 <body>
     <!-------------------- AmirAnsarpour -------------------->
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary mx-3">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mt-2 mx-3">
         <div class="container">
             <a class="navbar-brand" href="#">Rick And Morty</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -30,13 +30,10 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#Character">Character</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#faq-backcolor">FAQs</a>
+                        <a class="nav-link" href="#faq">FAQs</a>
                     </li>
                 </ul>
             </div>
@@ -44,11 +41,11 @@
     </nav>
     <!-- Character -->
     <div id="Character">
-        <h3 class=" text-center my-3">
+        <h3 class="text-center">
             Character in Rick and Morty
         </h3>
-        <div class="container">
-            <div class="row row-cols-1 row-cols-md-3 g-4 mb-4">
+        <div class="container mb-4">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                     <div class="card h-100">
                         <img src="images/rick.jpg" alt="Rick Sanchez image" title="Rick Sanchez" class="card-img-top">
@@ -84,7 +81,7 @@
         </div>
     </div>
     <!-- Frequently Asked Questions -->
-    <div id="faq-backcolor">
+    <div class="background-one" id="faq">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -178,11 +175,11 @@
         </div>
     </div>
     <!-- Commends -->
-    <div class="container-fluid my-3">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col" id="commend-backcolor">
+            <div class="col background-two">
                 <section>
-                    <div class="container py-3">
+                    <div class="container py-5">
                         <div class="row d-flex justify-content-center">
                             <div class="col-md-11 col-lg-9 col-xl-7">
                                 <div class="d-flex flex-start mb-4">
@@ -255,11 +252,11 @@
     <!-- footer  -->
     <div class="container">
         <footer>
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <ul class="nav justify-content-center border-bottom py-3 mb-3">
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
                 <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
                 <li class="nav-item"><a href="#Character" class="nav-link px-2 text-muted">Character</a></li>
-                <li class="nav-item"><a href="#faq-backcolor" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="#faq" class="nav-link px-2 text-muted">FAQs</a></li>
             </ul>
             <p class="text-center text-muted">&copy; 2022 <a href="https://github.com/AmirAnsarpour">AmirAnsarpour</a>
             </p>
